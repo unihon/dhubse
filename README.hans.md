@@ -1,21 +1,21 @@
 # dhubse
 
-English | [简体中文](README.hans.md)
+[English](README.md) | 简体中文
 
 ---
 
-Docker image search tool.
-You can use it search image and get the image tag list.
+Docker 镜像搜索工具。
+用于搜索镜像，获取镜像的标签列表。
 
-## Supported registry
+## 支持的仓库
 
 - Docker Hub
 - ~~hardor~~
 - ~~docker-registry~~
 
-> note: future versions may support.
+> 注：未来版本或许会支持
 
-## usage
+## 使用方法
 
 ``` bash
 pip install dhubse
@@ -43,7 +43,7 @@ optional arguments:
 unihon https://github.com/unihon
 ```
 
-## eg
+## 例子
 
 ```
 (npy) root@unihon:~# dhubse alpine
