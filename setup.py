@@ -15,14 +15,14 @@ setup(
     version=VERSION,
     author=AUTHOR,
     author_email='unihon@outlook.com',
-    license='GNU GPLv3',
+    license='LGPLv3',
     description='Docker image search tool.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/unihon/dhubse',
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: GNU Lesser General Public License v3'
+        'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)'
     ],
     python_requires='>=3.5',
     install_requires=['requests', 'tabulate'],
